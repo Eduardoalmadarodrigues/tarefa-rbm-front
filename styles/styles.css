@@ -1,0 +1,249 @@
+html{
+  font-size: 2vh;
+}
+
+#root {
+  display: flex;
+  padding: 15vh 0vw 10vh 0vw;
+  text-align: center;
+  width: 97vw;
+  max-width: 97vw;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: space-evenly;
+  height: fit-content;
+  max-height: fit-content;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 97vw;
+  max-width: 97vw;
+}
+
+.item-wrapper {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 1vw;
+  margin: 10vh 0vw -15vh 0vw;
+  min-height: 50vh;
+  height: 70vh;
+  width: 25vw;
+  align-items: center;
+  min-width: 375px;
+  max-width: 30vw;
+  font-size: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100vw;
+  max-width: 100%;
+  min-width: 100%;
+  padding-top: 2vh;
+  background-image: linear-gradient(#ee4d2d, #ff7337);
+  position: fixed;
+}
+
+.header > button {
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  color: #ee4d2d;
+  border-radius: 0px;
+  width: 5vw;
+  height: 3vh;
+  min-width: 50px;
+  min-height: 100px;
+}
+.select-wrapper{
+  margin: -3vh 0vw 2vh 0vw;
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.select-wrapper > div {
+  font-size: 20px;
+  color:white;
+  margin-left: 10vw;
+}
+
+.select-wrapper > div > select {
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  -webkit-appearance: none;
+  width: 7vw;
+}
+.select-wrapper > div > select > option {
+  text-align: center;
+  background-color: #ff7337;
+  color: white;
+  font-size: 1vw;
+}
+
+.button-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 5.8vh;
+  width: 5vw;
+  border: none;
+}
+
+
+.input-wrapper{
+  display: flex;
+  padding-bottom: 2vh;
+  margin-top: -4vh;
+  font-size: 1vw;
+}
+
+.input-wrapper > input{
+  font-size: 18px;
+  border: none;
+  color: rgb(0, 0, 0);
+  height: 5vh;
+  width: 55vw;
+  padding: 0.4vh 0.7vw 0.4vh 0.7vw;
+}
+
+.button-wrapper > button{
+  font-size: 1vw;
+  background-image: linear-gradient(#ee4d2d, #ff7337);
+  border: none;
+  height: 5vh;
+  width: 4.65vw;
+  color: white;
+  border-radius: 0.2vw;
+}
+
+.shopinho > img{
+  width: 8vw;
+  height: 16vh;
+  background-color: transparent;
+  margin: 0vh -1.7vw 0vh 0vw;
+}
+
+.superior{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0vh 0vw -3vh -10vw;
+}
+
+.shopinho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+  color: white;
+  margin: 0vh 5vw 2vh -3vw;
+}
+
+.shopinho > span {
+  margin: 2vh 0vw 0vh -0.2vw;
+}
+
+.preco-produto{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagem{
+  width: 70%;
+  height: 50%;
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 700px){
+  .select-wrapper > div {
+    font-size: 12px;
+  }
+  .select-wrapper{
+    width: 80vw;
+    justify-content: space-between;
+    margin-left: -10vw;
+  }
+
+  .select-wrapper > div > select {
+    font-size: 20px;
+    width: fit-content;
+  }
+  .select-wrapper > div > select > option{
+    font-size: 20px;
+  }
+  .input-wrapper > input{
+    font-size: 20px;
+    width: 85vw;
+    margin-left: -10vw;
+    text-align: center;
+  }
+  .shopinho{
+    visibility: collapse;
+  }
+}
+
+.nome{
+  font-size: 1.2em;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.marca{
+  font-size: 0.5em;
+}
+.cor{
+  font-size: 0.5em;
+}
+.preco{
+  font-size: 1.3em;
+}
+.tamanho{
+  font-size: 0.5em;
+}
+
+.linha{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > div >div{
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.info{
+  height: 10vh;
+  text-align: left;
+}
+
+.preco{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: orangered;
+}

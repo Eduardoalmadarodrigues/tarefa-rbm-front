@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <title>Shopinho</title>
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+</head>
+
+<body>
+  <div class="header">
+    <div class="superior">
+      <div class="shopinho"><img class='img'
+          src="./shopee.png"><span>hopinho</span></div>
+
+      <div class="input-wrapper">
+        <input placeholder="Buscar na Shopinho" id="input-pesquisar" />
+        <div class="button-wrapper">
+          <button id="botao">busca</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="select-wrapper">
+      <div>MARCA <select id="marca" name="marca">
+          <option value="todos" selected="selected">todos</option>
+          <option value="Shein">Shein</option>
+          <option value="Lacoste">Lacoste</option>
+        </select></div>
+      <div>COR <select id="cor" name="cor">
+          <option value="todos" selected="selected">todos</option>
+          <option value="branco">Branco</option>
+          <option value="azul">Azul</option>
+          <option value="cinza">Cinza</option>
+          <option value="preto">Preto</option>
+          <option value="rosa">Rosa</option>
+        </select></div>
+      <div>TAMANHO <select id="tamanho" name="tamanho">
+          <option value="todos" selected="selected">todos</option>
+          <option value="P">Pequeno</option>
+          <option value="G">Grande</option>
+        </select></div>
+    </div>
+  </div>
+  <div id="root"></div>
+  </div>
+  <script src="./scripts/index.js" type="module"></script>
+</body>
+</html>
