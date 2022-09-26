@@ -3,7 +3,7 @@ const blusas = [
     { nome: 'conjunto basico', marca: "Lacoste", cor: "branco", tamanho: 'G', img: "./1.jpg", preco: 23 },
     { nome: 'blusa leve simples', marca: "Shein", cor: "cinza", tamanho: 'P', img: "./2.png", preco: 52 },
     { nome: 'shorts Pijama', marca: "Lacoste", cor: "cinza", tamanho: 'G', img: "./3.png", preco: 100 },
-    { nome: 'blusa Leve', marca: "Shein", cor: "azul", tamanho: 'G', img: "./4.png", preco: 99 },
+    { nome: 'blusa leve', marca: "Shein", cor: "azul", tamanho: 'G', img: "./4.png", preco: 99 },
     { nome: 'vestido', marca: "Lacoste", cor: "preto", tamanho: 'P', img: "./5.png", preco: 68.6 },
     { nome: 'bermuda', marca: "Shein", cor: "rosa", tamanho: 'G', img: "./6.png", preco: 90.99 },
 ];
